@@ -1,0 +1,17 @@
+"use client";
+
+export default function Header() {
+  return (
+    <div className="w-full h-16 bg-gray opacity-70 absolute">
+        <div className="flex w-32 h-full items-center justify-center">
+            <img src="/images/logo.png" alt="marisha logo" className="w-24"/>
+        </div>
+        <div className="flex items-center justify-center">
+            
+        </div>
+        <div className="w-40">
+
+        </div>
+    </div>
+  );
+}
