@@ -22,7 +22,22 @@ const config: Config = {
       },
       height: {
         carousel: "30rem"
-      }
+      },
+      spacing: {
+        '84': '21rem'
+      },
+      letterSpacing: {
+        carousel: '0.5rem'
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        }
+      },
+      animation: {
+        fadeIn: 'fadeIn 1s ease-out forwards',
+      },
     },
   },
   plugins: [],
