@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Pagination, Navigation, Autoplay } from "swiper/modules";
+import { Pagination, Navigation } from "swiper/modules";
 import data from "../carousel/items.json";
 
 export default function Carousel() {
