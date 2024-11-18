@@ -1,4 +1,4 @@
-export default function HeaderItem(): any {
+export default function HeaderItem() {
   const items: string[] = [
     "home",
     "products",
