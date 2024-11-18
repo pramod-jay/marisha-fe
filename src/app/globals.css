@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,8 +10,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #E1E5DC;
     --foreground: #ededed;
+  }
+}
+
+@layer base {
+  html {
+    font-family: Inter, system-ui, sans-serif;;
   }
 }
 
@@ -18,4 +25,34 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerItem {
+  color: #F6F7F2;
+  font-size: 12;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+}
+
+.headerItem:hover {
+  color: #BCBCBC;
+  cursor:pointer;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #F6F7F2 !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #F6F7F2;
+}
+
+.swiper-pagination-bullet {
+  background-color: #F6F7F2 !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #8FC451 !important; 
 }
