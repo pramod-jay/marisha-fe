@@ -27,7 +27,8 @@ const config: Config = {
         '84': '21rem'
       },
       letterSpacing: {
-        carousel: '0.5rem'
+        carouselSmall: '0.1rem',
+        carouselMedium: '0.5rem'
       },
       keyframes: {
         fadeIn: {
@@ -36,8 +37,14 @@ const config: Config = {
         }
       },
       animation: {
-        fadeIn: 'fadeIn 1s ease-out forwards',
+        fadeIn: 'fadeIn 2s ease-out forwards',
       },
+      fontSize: {
+        '2xs': '0.5rem'
+      },
+      screens: {
+        md: '769px'
+      }
     },
   },
   plugins: [],
