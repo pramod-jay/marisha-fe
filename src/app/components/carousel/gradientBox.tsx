@@ -21,6 +21,7 @@ export default function GradientBox({ content }: GradientBoxProp) {
         rounded-md
         animate-fadeIn
         animation-delay-200
+        text-white
 
         inset-x-28
         m-auto
