@@ -15,7 +15,7 @@ export default function BlackBox({ content }: BlackBoxProp) {
       text-center
       rounded-md
       animate-fadeIn
-      animation-delay-600
+      animation-delay-1200
 
       inset-x-16
       m-auto

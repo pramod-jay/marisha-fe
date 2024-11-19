@@ -37,7 +37,7 @@ const config: Config = {
         }
       },
       animation: {
-        fadeIn: 'fadeIn 2s ease-out forwards',
+        fadeIn: 'fadeIn 1.5s ease-out forwards',
       },
       fontSize: {
         '2xs': '0.5rem'
