@@ -3,35 +3,7 @@ interface BlackBoxProp {
 }
 export default function BlackBox({ content }: BlackBoxProp) {
   return (
-    <div
-      className="
-      opacity-0
-      absolute z-20
-      bg-black
-      uppercase
-      p-4
-      font-semibold
-      text-white
-      text-center
-      rounded-md
-      animate-fadeIn
-      animation-delay-1200
-
-      inset-x-16
-      m-auto
-      top-72
-      text-2xs
-      tracking-carouselSmall
-      max-w-[60%]
-
-      md:left-84
-      md:text-xs
-      md:tracking-carouselMedium
-      md:top-84
-      md:inset-x-auto
-      md:max-w-none
-      "
-    >
+    <div className='animation-delay-1200 absolute left-24 top-72 z-20 m-auto max-w-[60%] animate-fadeIn rounded-md bg-black p-4 text-center text-2xs font-semibold uppercase tracking-carouselSmall text-white opacity-0 sm:text-xs sm:left-80 sm:my-6 md:left-84 md:top-84 md:my-0 md:max-w-none md:tracking-carouselMedium'>
       {content}
     </div>
   );
