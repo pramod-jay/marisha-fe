@@ -27,7 +27,7 @@ export default function GradientBox({ content }: GradientBoxProp) {
         text-center
         top-48
         text-sm
-        max-w-[30%]
+        max-w-[35%]
 
         md:left-48
         md:text-2xl

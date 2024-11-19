@@ -15,7 +15,7 @@ export default function WhiteBox({ content }: WhiteBoxProp) {
         text-darkGreen
         rounded-lg
         animate-fadeIn
-        animation-delay-400
+        animation-delay-800
 
         text-2xl
         inset-x-12
