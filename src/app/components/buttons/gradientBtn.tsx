@@ -6,11 +6,11 @@ interface GradientBtnProps {
 export default function GradientBtn({ name, onClick }: GradientBtnProps) {
   return (
     <button
-      type="button"
-      className="py-2 px-5 bg-gradient-to-r rounded-lg from-darkGreen via-lightGreen to-yellowGreen"
+      type='button'
+      className='text-3xs sm:hover:animate-shine sm:text-2x rounded-sm bg-gradient-to-r from-darkGreen via-lightGreen to-yellowGreen px-3 py-1 font-bold uppercase text-white sm:rounded-lg sm:px-5 sm:py-2 md:text-sm'
       onClick={onClick}
     >
-      <p className={"text-sm uppercase font-bold text-white"}>{name}</p>
+      {name}
     </button>
   );
 }

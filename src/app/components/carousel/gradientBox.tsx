@@ -4,38 +4,7 @@ interface GradientBoxProp {
 
 export default function GradientBox({ content }: GradientBoxProp) {
   return (
-    <div
-      className="
-        opacity-0
-        absolute
-        z-0
-        bg-gradient-to-r
-        from-darkGreen
-        via-lightGreen
-        to-yellowGreen
-        uppercase
-        px-4
-        py-3
-        font-semibold
-        text-whie
-        rounded-md
-        animate-fadeIn
-        animation-delay-200
-        text-white
-
-        inset-x-28
-        m-auto
-        text-center
-        top-48
-        text-sm
-        max-w-[35%]
-
-        md:left-48
-        md:text-2xl
-        md:inset-x-auto
-        md:max-w-none
-        "
-    >
+    <div className='text-whie animation-delay-200 absolute left-16 top-48 z-0 m-auto max-w-[35%] animate-fadeIn rounded-md bg-gradient-to-r from-darkGreen via-lightGreen to-yellowGreen px-4 py-3 text-center text-sm font-semibold uppercase text-white opacity-0 sm:text-base md:inset-x-auto md:left-48 md:max-w-none md:text-2xl'>
       {content}
     </div>
   );

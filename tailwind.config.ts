@@ -34,16 +34,22 @@ const config: Config = {
         fadeIn: {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
+        },
+        shine: {
+          '0%': { boxShadow: '0 0 10px 3px rgba(31, 255, 71, 0.3)' },
+          '100%': { boxShadow: '0 0 20px 6px rgba(31, 255, 71, 0.6)' }
         }
       },
       animation: {
         fadeIn: 'fadeIn 1.5s ease-out forwards',
+        shine: 'shine 3s linear forwards'
       },
       fontSize: {
+        '3xs': '0.4rem',
         '2xs': '0.5rem'
       },
       screens: {
-        md: '769px'
+        md: '821px'
       }
     },
   },
